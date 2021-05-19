@@ -1174,7 +1174,7 @@ Full path: %4</source>
     <message>
         <location filename="SandMan.cpp" line="1439"/>
         <source>Can&apos;t find Sandboxie installation path.</source>
-        <translation type="unfinished">111111111未找到Sandboxie安装路径</translation>
+        <translation>无法找到 Sandboxie 安装路径。</translation>
     </message>
     <message>
         <location filename="SandMan.cpp" line="1440"/>
@@ -1184,7 +1184,7 @@ Full path: %4</source>
     <message>
         <location filename="SandMan.cpp" line="1441"/>
         <source>A sandbox of the name %1 already exists</source>
-        <translation>沙盒名称 %1 已存在</translation>
+        <translation>名为 %1 的沙盒已存在</translation>
     </message>
     <message>
         <location filename="SandMan.cpp" line="1442"/>
@@ -1194,17 +1194,17 @@ Full path: %4</source>
     <message>
         <location filename="SandMan.cpp" line="1443"/>
         <source>The sandbox name can not be longer than 32 characters.</source>
-        <translation>沙盒名称不能超过32个字符</translation>
+        <translation>沙盒名称不能超过32个字符。</translation>
     </message>
     <message>
         <location filename="SandMan.cpp" line="1444"/>
         <source>The sandbox name can not be a device name.</source>
-        <translation>沙盒名称不能为设备名称</translation>
+        <translation>沙盒名称不能为设备名称。</translation>
     </message>
     <message>
         <location filename="SandMan.cpp" line="1445"/>
         <source>The sandbox name can contain only letters, digits and underscores which are displayed as spaces.</source>
-        <translation>沙盒名称不能为空格，只能包含字母,数字和下划线</translation>
+        <translation>沙盒名称只能包含字母、数字和下划线（显示为空格）。</translation>
     </message>
     <message>
         <location filename="SandMan.cpp" line="1446"/>
@@ -1214,22 +1214,22 @@ Full path: %4</source>
     <message>
         <location filename="SandMan.cpp" line="1447"/>
         <source>Delete protection is enabled for the sandbox</source>
-        <translation>沙盒的删除保护被启用</translation>
+        <translation>该沙盒已启用删除保护</translation>
     </message>
     <message>
         <location filename="SandMan.cpp" line="1448"/>
         <source>Error deleting sandbox folder: %1</source>
-        <translation>删除沙盒文件夹错误: %1</translation>
+        <translation>删除沙盒文件夹出错：%1</translation>
     </message>
     <message>
         <location filename="SandMan.cpp" line="1449"/>
         <source>A sandbox must be emptied before it can be renamed.</source>
-        <translation>重命名沙盒之前必须清空</translation>
+        <translation>沙盒被重命名前必须清空。</translation>
     </message>
     <message>
         <location filename="SandMan.cpp" line="1450"/>
         <source>A sandbox must be emptied before it can be deleted.</source>
-        <translation>删除沙盒之前必须清空</translation>
+        <translation>沙盒被删除前必须清空。</translation>
     </message>
     <message>
         <location filename="SandMan.cpp" line="1451"/>
@@ -1239,17 +1239,17 @@ Full path: %4</source>
     <message>
         <location filename="SandMan.cpp" line="1452"/>
         <source>This Snapshot operation can not be performed while processes are still running in the box.</source>
-        <translation>因进程正在沙盒中运行，此快照操作无法完成</translation>
+        <translation>因有进程正在沙盒中运行，此快照操作无法完成。</translation>
     </message>
     <message>
         <location filename="SandMan.cpp" line="1453"/>
         <source>Failed to create directory for new snapshot</source>
-        <translation>创建新的快照目录失败</translation>
+        <translation>创建新快照的目录失败</translation>
     </message>
     <message>
         <location filename="SandMan.cpp" line="1454"/>
         <source>Failed to copy RegHive</source>
-        <translation>复制RegHive失败</translation>
+        <translation>复制 RegHive 失败</translation>
     </message>
     <message>
         <location filename="SandMan.cpp" line="1455"/>
@@ -1259,37 +1259,37 @@ Full path: %4</source>
     <message>
         <location filename="SandMan.cpp" line="1456"/>
         <source>Error merging snapshot directories &apos;%1&apos; with &apos;%2&apos;, the snapshot has not been fully merged.</source>
-        <translation>合并快照目录 &apos;%1&apos; 和 &apos;%2&apos; 错误,快照没有全部合并</translation>
+        <translation>合并快照目录 &apos;%1&apos; 和 &apos;%2&apos; 出错，快照没有被完全合并。</translation>
     </message>
     <message>
         <location filename="SandMan.cpp" line="1457"/>
         <source>Failed to remove old snapshot directory &apos;%1&apos;</source>
-        <translation>删除旧的快照目录 &apos;%1&apos; 失败</translation>
+        <translation>移除旧快照的目录 &apos;%1&apos; 失败</translation>
     </message>
     <message>
         <location filename="SandMan.cpp" line="1458"/>
         <source>Can&apos;t remove a snapshot that is shared by multiple later snapshots</source>
-        <translation>无法删除由多个后续快照共享的快照</translation>
+        <translation>无法移除被多个后续快照所共享的快照</translation>
     </message>
     <message>
         <location filename="SandMan.cpp" line="1459"/>
         <source>Failed to remove old RegHive</source>
-        <translation>删除旧的RegHive失败</translation>
+        <translation>移除旧的 RegHive 失败</translation>
     </message>
     <message>
         <location filename="SandMan.cpp" line="1460"/>
         <source>You are not authorized to update configuration in section &apos;%1&apos;</source>
-        <translation>您无权在此处更新配置 &apos;%1&apos;</translation>
+        <translation>您未被授权在 &apos;%1&apos; 更新配置</translation>
     </message>
     <message>
         <location filename="SandMan.cpp" line="1461"/>
         <source>Failed to set configuration setting %1 in section %2: %3</source>
-        <translation>配置设置 %1 失败于 %2: %3 </translation>
+        <translation>在 %2: %3 中设定配置设置 %1 失败</translation>
     </message>
     <message>
         <location filename="SandMan.cpp" line="1462"/>
         <source>Can not create snapshot of an empty sandbox</source>
-        <translation>无法为空沙盒创建快照</translation>
+        <translation>无法为空的沙盒创建快照</translation>
     </message>
     <message>
         <location filename="SandMan.cpp" line="1463"/>
@@ -1299,118 +1299,118 @@ Full path: %4</source>
     <message>
         <location filename="SandMan.cpp" line="1464"/>
         <source>Unknown Error Status: %1</source>
-        <translation>未知错误代码: %1</translation>
+        <translation>未知错误状态：%1</translation>
     </message>
     <message>
         <location filename="SandMan.cpp" line="1484"/>
         <source>Operation failed for %1 item(s).</source>
-        <translation> %1 项操作失败</translation>
+        <translation>%1 项操作失败。</translation>
     </message>
     <message>
         <location filename="SandMan.cpp" line="1552"/>
         <source>Do you want to open %1 in a sandboxed (yes) or unsandboxed (no) Web browser?</source>
-        <translation>确定要打开 %1 在沙盒化 (是) 未沙盒化 (否) 的浏览器中?</translation>
+        <translation>关于打开 %1，如果您希望在沙盒化的浏览器中环境下打开，请选“是”，反之选“否”。</translation>
     </message>
     <message>
         <location filename="SandMan.cpp" line="1553"/>
         <source>Remember choice for later.</source>
-        <translation>以后记住选择</translation>
+        <translation>记住选择供之后使用</translation>
     </message>
     <message>
         <location filename="SandMan.cpp" line="1584"/>
         <source>Checking for updates...</source>
-        <translation>检查更新...</translation>
+        <translation>正在检查更新...</translation>
     </message>
     <message>
         <location filename="SandMan.cpp" line="1631"/>
         <source>server not reachable</source>
-        <translation>服务器无法访问</translation>
+        <translation>无法连通服务器</translation>
     </message>
     <message>
         <location filename="SandMan.cpp" line="1632"/>
         <location filename="SandMan.cpp" line="1634"/>
         <source>Failed to check for updates, error: %1</source>
-        <translation>检查更新失败,错误: %1</translation>
+        <translation>检查更新失败，错误：%1</translation>
     </message>
     <message>
         <location filename="SandMan.cpp" line="1651"/>
         <source>&lt;p&gt;Do you want to go to the &lt;a href=&quot;%1&quot;&gt;info page&lt;/a&gt;?&lt;/p&gt;</source>
-        <translation>&lt;p&gt;您确定前往 &lt; &quot;%1&quot;&gt;信息页&lt;/a&gt;?&lt;/p&gt;</translation>
+        <translation>&lt;p&gt;您是否要前往&lt; &quot;%1&quot;&gt;信息页&lt;/a&gt;？&lt;/p&gt;</translation>
     </message>
     <message>
         <location filename="SandMan.cpp" line="1659"/>
         <source>Don&apos;t show this announcement in the future.</source>
-        <translation>此后不再显示此通告</translation>
+        <translation>未来不再显示此通告</translation>
     </message>
     <message>
         <location filename="SandMan.cpp" line="1706"/>
         <source>&lt;p&gt;There is a new version of Sandboxie-Plus available.&lt;br /&gt;&lt;font color=&apos;red&apos;&gt;New version:&lt;/font&gt; &lt;b&gt;%1&lt;/b&gt;&lt;/p&gt;</source>
-        <translation>&lt;p&gt;有新版本Sandboxie-Plus可用.&lt;br /&gt;&lt;font color=&apos;red&apos;&gt;New version:&lt;/font&gt; &lt;b&gt;%1&lt;/b&gt;&lt;/p&gt;</translation>
+        <translation>&lt;p&gt;有新版 Sandboxie-Plus 可用。&lt;br /&gt;&lt;font color=&apos;red&apos;&gt;新版本：&lt;/font&gt;&lt;b&gt;%1&lt;/b&gt;&lt;/p&gt;</translation>
     </message>
     <message>
         <location filename="SandMan.cpp" line="1708"/>
         <source>&lt;p&gt;Do you want to download the latest version?&lt;/p&gt;</source>
-        <translation>&lt;p&gt;确定要下载最新版?&lt;/p&gt;</translation>
+        <translation>&lt;p&gt;是否下载最新版本？&lt;/p&gt;</translation>
     </message>
     <message>
         <location filename="SandMan.cpp" line="1710"/>
         <source>&lt;p&gt;Do you want to go to the &lt;a href=&quot;%1&quot;&gt;download page&lt;/a&gt;?&lt;/p&gt;</source>
-        <translation>&lt;p&gt;确定要打开 &lt;a href=&quot;%1&quot;&gt;下载页面&lt;/a&gt;?&lt;/p&gt;</translation>
+        <translation>&lt;p&gt;是否要打开&lt;a href=&quot;%1&quot;&gt;下载页面&lt;/a&gt;？&lt;/p&gt;</translation>
     </message>
     <message>
         <location filename="SandMan.cpp" line="1718"/>
         <source>Don&apos;t show this message anymore.</source>
-        <translation>不再显示此信息</translation>
+        <translation>不再显示此消息</translation>
     </message>
     <message>
         <location filename="SandMan.cpp" line="1746"/>
         <source>Downloading new version...</source>
-        <translation>下载新版本...</translation>
+        <translation>正在下载新版本...</translation>
     </message>
     <message>
         <location filename="SandMan.cpp" line="1759"/>
         <source>No new updates found, your Sandboxie-Plus is up-to-date.</source>
-        <translation>无可用更新，您的Sandboxie-Plus是最新的</translation>
+        <translation>无可用更新，您的 Sandboxie-Plus 已是最新版。</translation>
     </message>
     <message>
         <location filename="SandMan.cpp" line="1801"/>
         <source>Failed to download update from: %1</source>
-        <translation>在: %1 下载更新失败</translation>
+        <translation>从如下地址下载更新失败：%1</translation>
     </message>
     <message>
         <location filename="SandMan.cpp" line="1805"/>
         <source>&lt;p&gt;New Sandboxie-Plus has been downloaded to the following location:&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;%2&quot;&gt;%1&lt;/a&gt;&lt;/p&gt;&lt;p&gt;Do you want to begin the installation? If any programs are running sandboxed, they will be terminated.&lt;/p&gt;</source>
-        <translation>&lt;p&gt;新版本Sandboxie-Plus 将被下载到:&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;%2&quot;&gt;%1&lt;/a&gt;&lt;/p&gt;&lt;p&gt;您想要开始安装吗? 正在沙盒运行的其他程序将会被终止.&lt;/p&gt;</translation>
+        <translation>&lt;p&gt;新版 Sandboxie-Plus 将被下载到下列位置：&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;%2&quot;&gt;%1&lt;/a&gt;&lt;/p&gt;&lt;p&gt;您想开始安装吗？正在沙盒中运行的其他程序将被终止。&lt;/p&gt;</translation>
     </message>
     <message>
         <location filename="SandMan.cpp" line="1827"/>
         <source>&lt;h3&gt;About Sandboxie-Plus&lt;/h3&gt;&lt;p&gt;Version %1&lt;/p&gt;&lt;p&gt;Copyright (c) 2020-2021 by DavidXanatos&lt;/p&gt;</source>
-        <translation>&lt;h3&gt;关于Sandboxie-Plus&lt;/h3&gt;&lt;p&gt;Version %1&lt;/p&gt;&lt;p&gt;Copyright (c) 2020-2021 by DavidXanatos&lt;/p&gt;</translation>
+        <translation>&lt;h3&gt;关于 Sandboxie-Plus&lt;/h3&gt;&lt;p&gt;版本 %1&lt;/p&gt;&lt;p&gt;Copyright (c) 2020-2021 by DavidXanatos&lt;/p&gt;</translation>
     </message>
     <message>
         <location filename="SandMan.cpp" line="1832"/>
         <source>&lt;p&gt;Sandboxie-Plus is an open source continuation of Sandboxie.&lt;/p&gt;&lt;p&gt;&lt;/p&gt;&lt;p&gt;Visit &lt;a href=&quot;https://sandboxie-plus.com&quot;&gt;sandboxie-plus.com&lt;/a&gt; for more information.&lt;/p&gt;&lt;p&gt;&lt;/p&gt;&lt;p&gt;&lt;/p&gt;&lt;p&gt;&lt;/p&gt;&lt;p&gt;Icons from &lt;a href=&quot;https://icons8.com&quot;&gt;icons8.com&lt;/a&gt;&lt;/p&gt;&lt;p&gt;&lt;/p&gt;</source>
-        <translation>&lt;p&gt;Sandboxie-Plus是著名开源程序Sandboxie的延续.&lt;/p&gt;&lt;p&gt;&lt;/p&gt;&lt;p&gt;访问 &lt;a href=&quot;https://sandboxie-plus.com&quot;&gt;sandboxie-plus.com&lt;/a&gt; 来获取更多信息.&lt;/p&gt;&lt;p&gt;&lt;/p&gt;&lt;p&gt;&lt;/p&gt;&lt;p&gt;&lt;/p&gt;&lt;p&gt;图标来自 &lt;a href=&quot;https://icons8.com&quot;&gt;icons8.com&lt;/a&gt;&lt;/p&gt;&lt;p&gt;&lt;/p&gt;</translation>
+        <translation>&lt;p&gt;Sandboxie-Plus 是著名程序 Sandboxie 自开源以来的一个延续。&lt;/p&gt;&lt;p&gt;&lt;/p&gt;&lt;p&gt;访问 &lt;a href=&quot;https://sandboxie-plus.com&quot;&gt;sandboxie-plus.com&lt;/a&gt; 来了解更多信息.&lt;/p&gt;&lt;p&gt;&lt;/p&gt;&lt;p&gt;&lt;/p&gt;&lt;p&gt;&lt;/p&gt;&lt;p&gt;图标来自 &lt;a href=&quot;https://icons8.com&quot;&gt;icons8.com&lt;/a&gt;&lt;/p&gt;&lt;p&gt;&lt;/p&gt;</translation>
     </message>
     <message>
         <location filename="SandMan.cpp" line="1968"/>
         <source>The selected window is running as part of program %1 in sandbox %2</source>
-        <translation>选择的窗口正作为程序 %1 一部分运行在 %2 中</translation>
+        <translation>选择的窗口正作为程序 %1 一部分运行在沙盒 %2 中</translation>
     </message>
     <message>
         <location filename="SandMan.cpp" line="1975"/>
         <source>The selected window is not running as part of any sandboxed program.</source>
-        <translation>选择的窗口没有作为任何沙盒化程序的一部分运行</translation>
+        <translation>选择的窗口并非作为任何沙盒化程序的一部分而运行。</translation>
     </message>
     <message>
         <location filename="SandMan.cpp" line="2010"/>
         <source>Drag the Finder Tool over a window to select it, then release the mouse to check if the window is sandboxed.</source>
-        <translation>拖动查找工具到一个窗口上去选择，然后松开鼠标检查窗口是否沙盒化</translation>
+        <translation>拖拽探查工具放到一个窗口上来选择，松开鼠标即可检查窗口是否来自沙盒化的程序。</translation>
     </message>
     <message>
         <location filename="SandMan.cpp" line="2065"/>
         <source>Sandboxie-Plus - Window Finder</source>
-        <translation>Sandboxie-Plus - 窗口查找器</translation>
+        <translation>Sandboxie-Plus - 窗口探查器</translation>
     </message>
 </context>
 <context>
@@ -1428,7 +1428,7 @@ Full path: %4</source>
     <message>
         <location filename="Models/SbieModel.cpp" line="430"/>
         <source>Process ID</source>
-        <translation>进程ID</translation>
+        <translation>进程 ID</translation>
     </message>
     <message>
         <location filename="Models/SbieModel.cpp" line="431"/>
@@ -1456,12 +1456,12 @@ Full path: %4</source>
     <message>
         <location filename="SbiePlusAPI.cpp" line="376"/>
         <source>Terminated</source>
-        <translation>终止</translation>
+        <translation>已终止</translation>
     </message>
     <message>
         <location filename="SbiePlusAPI.cpp" line="379"/>
         <source>Running</source>
-        <translation>运行</translation>
+        <translation>正在运行</translation>
     </message>
 </context>
 <context>
@@ -1469,7 +1469,7 @@ Full path: %4</source>
     <message>
         <location filename="Views/SbieView.cpp" line="62"/>
         <source>Create New Box</source>
-        <translation>创建新沙盒</translation>
+        <translation>新建沙盒</translation>
     </message>
     <message>
         <location filename="Views/SbieView.cpp" line="63"/>
@@ -1494,7 +1494,7 @@ Full path: %4</source>
     <message>
         <location filename="Views/SbieView.cpp" line="70"/>
         <source>Run from Start Menu</source>
-        <translation>在开始菜单运行</translation>
+        <translation>从开始菜单运行</translation>
     </message>
     <message>
         <location filename="Views/SbieView.cpp" line="71"/>
@@ -1504,22 +1504,22 @@ Full path: %4</source>
     <message>
         <location filename="Views/SbieView.cpp" line="72"/>
         <source>Run eMail Client</source>
-        <translation>运行邮件客户端</translation>
+        <translation>运行电子邮件客户端</translation>
     </message>
     <message>
         <location filename="Views/SbieView.cpp" line="73"/>
         <source>Run Explorer</source>
-        <translation>运行资源管理器</translation>
+        <translation>运行文件资源管理器</translation>
     </message>
     <message>
         <location filename="Views/SbieView.cpp" line="74"/>
         <source>Run Cmd.exe</source>
-        <translation>运行Cmd.exe</translation>
+        <translation>运行 Cmd.exe</translation>
     </message>
     <message>
         <location filename="Views/SbieView.cpp" line="75"/>
         <source>Run Cmd.exe as Admin</source>
-        <translation>以管理员身份运行Cmd.exe</translation>
+        <translation>以管理员身份运行 Cmd.exe</translation>
     </message>
     <message>
         <location filename="Views/SbieView.cpp" line="78"/>
@@ -1540,12 +1540,12 @@ Full path: %4</source>
     <message>
         <location filename="Views/SbieView.cpp" line="83"/>
         <source>Snapshots Manager</source>
-        <translation>快照管理</translation>
+        <translation>快照管理器</translation>
     </message>
     <message>
         <location filename="Views/SbieView.cpp" line="84"/>
         <source>Recover Files</source>
-        <translation>恢复文件</translation>
+        <translation>文件恢复</translation>
     </message>
     <message>
         <location filename="Views/SbieView.cpp" line="85"/>
@@ -1555,17 +1555,17 @@ Full path: %4</source>
     <message>
         <location filename="Views/SbieView.cpp" line="87"/>
         <source>Sandbox Presets</source>
-        <translation>沙盒预置</translation>
+        <translation>沙盒预设</translation>
     </message>
     <message>
         <location filename="Views/SbieView.cpp" line="90"/>
         <source>Ask for UAC Elevation</source>
-        <translation>询问UAC提权</translation>
+        <translation>询问 UAC 提权</translation>
     </message>
     <message>
         <location filename="Views/SbieView.cpp" line="91"/>
         <source>Drop Admin Rights</source>
-        <translation>撤销管理员权限</translation>
+        <translation>解除管理员权限</translation>
     </message>
     <message>
         <location filename="Views/SbieView.cpp" line="92"/>
@@ -1575,7 +1575,7 @@ Full path: %4</source>
     <message>
         <location filename="Views/SbieView.cpp" line="96"/>
         <source>Block Internet Access</source>
-        <translation>禁止网络访问</translation>
+        <translation>拦截网络访问</translation>
     </message>
     <message>
         <location filename="Views/SbieView.cpp" line="98"/>
@@ -1600,7 +1600,7 @@ Full path: %4</source>
     <message>
         <location filename="Views/SbieView.cpp" line="104"/>
         <source>Remove Sandbox</source>
-        <translation>删除沙盒</translation>
+        <translation>移除沙盒</translation>
     </message>
     <message>
         <location filename="Views/SbieView.cpp" line="109"/>
@@ -1610,7 +1610,7 @@ Full path: %4</source>
     <message>
         <location filename="Views/SbieView.cpp" line="114"/>
         <source>Preset</source>
-        <translation>预置</translation>
+        <translation>预设</translation>
     </message>
     <message>
         <location filename="Views/SbieView.cpp" line="115"/>
@@ -1653,21 +1653,21 @@ Full path: %4</source>
         <location filename="Views/SbieView.cpp" line="188"/>
         <source>    Registry root: %1
 </source>
-        <translation>    注册表根目录: %1
+        <translation>    注册表根: %1
 </translation>
     </message>
     <message>
         <location filename="Views/SbieView.cpp" line="189"/>
         <source>    IPC root: %1
 </source>
-        <translation>    IPC根目录: %1
+        <translation>    IPC 根: %1
 </translation>
     </message>
     <message>
         <location filename="Views/SbieView.cpp" line="191"/>
         <source>Options:
     </source>
-        <translation>选项:
+        <translation>选项：
 </translation>
     </message>
     <message>
@@ -1963,12 +1963,12 @@ Full path: %4</source>
     <message>
         <location filename="Forms/OptionsWindow.ui" line="32"/>
         <source>SandboxiePlus Options</source>
-        <translation>SandboxiePlus选项</translation>
+        <translation>SandboxiePlus 选项</translation>
     </message>
     <message>
         <location filename="Forms/OptionsWindow.ui" line="52"/>
         <source>General Options</source>
-        <translation>通用选项</translation>
+        <translation>常规选项</translation>
     </message>
     <message>
         <location filename="Forms/OptionsWindow.ui" line="62"/>
@@ -1988,17 +1988,17 @@ Full path: %4</source>
     <message>
         <location filename="Forms/OptionsWindow.ui" line="123"/>
         <source>px Width</source>
-        <translation>宽度</translation>
+        <translation>宽度（像素）</translation>
     </message>
     <message>
         <location filename="Forms/OptionsWindow.ui" line="133"/>
         <source>Sandbox Indicator in title:</source>
-        <translation>在标题显示沙盒标记:</translation>
+        <translation>标题中显示沙盒标识符：</translation>
     </message>
     <message>
         <location filename="Forms/OptionsWindow.ui" line="143"/>
         <source>Sandboxed window border:</source>
-        <translation>沙盒化窗口边框:</translation>
+        <translation>沙盒内窗口边框：</translation>
     </message>
     <message>
         <location filename="Forms/OptionsWindow.ui" line="162"/>
@@ -2006,7 +2006,7 @@ Full path: %4</source>
         <location filename="Forms/OptionsWindow.ui" line="465"/>
         <location filename="Forms/OptionsWindow.ui" line="547"/>
         <source>Protect the system from sandboxed processes</source>
-        <translation>保护系统来自沙盒化的进程</translation>
+        <translation>保护系统免受沙盒内进程的影响</translation>
     </message>
     <message>
         <location filename="Forms/OptionsWindow.ui" line="165"/>
@@ -2016,12 +2016,12 @@ Full path: %4</source>
     <message>
         <location filename="Forms/OptionsWindow.ui" line="191"/>
         <source>Block network files and folders, unless specifically opened.</source>
-        <translation>禁用网络文件和文件夹,除非专门打开</translation>
+        <translation>拦截非特别开启的网络文件和文件夹。</translation>
     </message>
     <message>
         <location filename="Forms/OptionsWindow.ui" line="214"/>
         <source>Make applications think thay are running elevated (allows to run installers safely)</source>
-        <translation>使应用程序自身认为被提权运行 (允许安全的运行安装程序)</translation>
+        <translation>使应用程序认为自己被提权运行（允许安全地运行安装程序）</translation>
     </message>
     <message>
         <location filename="Forms/OptionsWindow.ui" line="230"/>
@@ -2031,17 +2031,17 @@ Full path: %4</source>
     <message>
         <location filename="Forms/OptionsWindow.ui" line="237"/>
         <source>Drop rights from Administrators and Power Users groups</source>
-        <translation>撤销管理员和超级用户组的权限</translation>
+        <translation>撤销管理员和 Power Users 用户组的权限</translation>
     </message>
     <message>
         <location filename="Forms/OptionsWindow.ui" line="250"/>
         <source>(Recommended)</source>
-        <translation>(建议)</translation>
+        <translation>（推荐）</translation>
     </message>
     <message>
         <location filename="Forms/OptionsWindow.ui" line="263"/>
         <source>Security note: Elevated applications running under the supervision of Sandboxie, with an admin token, have more opportunities to bypass isolation and modify the system outside the sandbox.</source>
-        <translation>安全提示: 提权的应用程序在沙盒的监督下运行, 伴随管理员令牌, 有更多的机会绕过隔离和在沙盒外更改系统</translation>
+        <translation>安全提示：提权的应用程序在沙盒的监督下运行，如获管理员令牌，将有更多机会绕过隔离和更改沙盒外的系统。</translation>
     </message>
     <message>
         <location filename="Forms/OptionsWindow.ui" line="276"/>
@@ -2051,12 +2051,12 @@ Full path: %4</source>
     <message>
         <location filename="Forms/OptionsWindow.ui" line="284"/>
         <source>Auto delete content when last sandboxed process terminates</source>
-        <translation>上一次沙盒化的进程终止后自动删除内容</translation>
+        <translation>最后一个沙盒内进程终止后自动删除内容</translation>
     </message>
     <message>
         <location filename="Forms/OptionsWindow.ui" line="291"/>
         <source>Copy file size limit:</source>
-        <translation>复制文件大小限制:</translation>
+        <translation>复制文件大小限制：</translation>
     </message>
     <message>
         <location filename="Forms/OptionsWindow.ui" line="304"/>
@@ -2066,12 +2066,12 @@ Full path: %4</source>
     <message>
         <location filename="Forms/OptionsWindow.ui" line="324"/>
         <source>Protect this sandbox from deletion or emptying</source>
-        <translation>保护此沙盒删除或清空</translation>
+        <translation>保护此沙盒免受删除或清空</translation>
     </message>
     <message>
         <location filename="Forms/OptionsWindow.ui" line="337"/>
         <source>Raw Disk access</source>
-        <translation>未格式化磁盘访问</translation>
+        <translation>底层磁盘访问</translation>
     </message>
     <message>
         <location filename="Forms/OptionsWindow.ui" line="350"/>
@@ -2086,22 +2086,22 @@ Full path: %4</source>
     <message>
         <location filename="Forms/OptionsWindow.ui" line="364"/>
         <source>Warn when an application opens a harddrive handle</source>
-        <translation>当程序打开硬盘句柄时警示</translation>
+        <translation>有程序打开硬盘句柄时警示</translation>
     </message>
     <message>
         <location filename="Forms/OptionsWindow.ui" line="371"/>
         <source>kilobytes</source>
-        <translation>kb</translation>
+        <translation>KB</translation>
     </message>
     <message>
         <location filename="Forms/OptionsWindow.ui" line="388"/>
         <source>Issue message 2102 when a file is too large</source>
-        <translation>问题代码2102,文件太大</translation>
+        <translation>文件太大时发出问题代码 2102</translation>
     </message>
     <message>
         <location filename="Forms/OptionsWindow.ui" line="421"/>
         <source>Prompt user for large file migration</source>
-        <translation>大文件迁移时提示用户</translation>
+        <translation>大文件迁移时提示用户决定</translation>
     </message>
     <message>
         <location filename="Forms/OptionsWindow.ui" line="431"/>
@@ -2111,7 +2111,7 @@ Full path: %4</source>
     <message>
         <location filename="Forms/OptionsWindow.ui" line="439"/>
         <source>Remove spooler restriction, printers can be installed outside the sandbox</source>
-        <translation>移除打印限制,打印机可以在沙盒外安装</translation>
+        <translation>移除打印限制，可以在沙盒外安装打印机</translation>
     </message>
     <message>
         <location filename="Forms/OptionsWindow.ui" line="468"/>
@@ -2121,12 +2121,12 @@ Full path: %4</source>
     <message>
         <location filename="Forms/OptionsWindow.ui" line="475"/>
         <source>Open Windows Credentials Store</source>
-        <translation>打开系统证书库</translation>
+        <translation>打开系统证书存储</translation>
     </message>
     <message>
         <location filename="Forms/OptionsWindow.ui" line="482"/>
         <source>Open System Protected Storage</source>
-        <translation>开放系统保护存储</translation>
+        <translation>打开系统保护的存储</translation>
     </message>
     <message>
         <location filename="Forms/OptionsWindow.ui" line="495"/>
@@ -2151,7 +2151,7 @@ Full path: %4</source>
     <message>
         <location filename="Forms/OptionsWindow.ui" line="566"/>
         <source>You can configure custom entries for the sandbox run menu.</source>
-        <translation>您可为沙盒运行菜单配置自定义条目</translation>
+        <translation type="unfinished">您可为沙盒运行菜单配置自定义条目。</translation>
     </message>
     <message>
         <location filename="Forms/OptionsWindow.ui" line="590"/>
@@ -2185,7 +2185,7 @@ Full path: %4</source>
         <location filename="Forms/OptionsWindow.ui" line="1744"/>
         <location filename="Forms/OptionsWindow.ui" line="1810"/>
         <source>Remove</source>
-        <translation>删除</translation>
+        <translation>移除</translation>
     </message>
     <message>
         <location filename="Forms/OptionsWindow.ui" line="642"/>
@@ -2195,7 +2195,7 @@ Full path: %4</source>
     <message>
         <location filename="Forms/OptionsWindow.ui" line="648"/>
         <source>Here you can specify programs and/or services that are to be started automatically in the sandbox when it is activated</source>
-        <translation>这里您可以详列将在沙盒中自动启动的程序或服务，当它被激活时</translation>
+        <translation>这里您可以指定在沙盒被激活时将在其中自动启动的程序或服务</translation>
     </message>
     <message>
         <location filename="Forms/OptionsWindow.ui" line="659"/>
@@ -2230,7 +2230,7 @@ Full path: %4</source>
     <message>
         <location filename="Forms/OptionsWindow.ui" line="801"/>
         <source>You can group programs together and give them a group name.  Program groups can be used with some of the settings instead of program names.</source>
-        <translation>您可将程序分组并且给它们组名.程序组可以代替程序名被用于一些设置</translation>
+        <translation>您可将程序分组并且给它们一个组名。程序组可以代替程序名被用于某些设置。</translation>
     </message>
     <message>
         <location filename="Forms/OptionsWindow.ui" line="814"/>
@@ -2265,7 +2265,7 @@ Full path: %4</source>
     <message>
         <location filename="Forms/OptionsWindow.ui" line="892"/>
         <source>Programs entered here, or programs started from entered locations, will be put in this sandbox automatically, unless thay are explicitly started in another sandbox.</source>
-        <translation>此处输入的程序,或指定位置启动的程序,将自动入此沙盒,除非它们明确在其他沙盒启动</translation>
+        <translation>在这里指明的程序或者位置中的程序，将自动进入此沙盒，除非其被明确在其他沙盒中启动。</translation>
     </message>
     <message>
         <location filename="Forms/OptionsWindow.ui" line="905"/>
@@ -2277,7 +2277,7 @@ Full path: %4</source>
         <location filename="Forms/OptionsWindow.ui" line="1019"/>
         <location filename="Forms/OptionsWindow.ui" line="1122"/>
         <source>Remove Program</source>
-        <translation>删除程序</translation>
+        <translation>移除程序</translation>
     </message>
     <message>
         <location filename="Forms/OptionsWindow.ui" line="933"/>
@@ -2294,9 +2294,9 @@ Full path: %4</source>
         <source>Lingering programs will be automatically terminated if they are still running after all other processes have been terminated.
 
 If leader processes are defined, all others are treated as lingering processes.</source>
-        <translation>如果其他所有程序已经终止后，驻留程序仍在运行，将自动终止.
+        <translation>其他所有程序得到终止后，仍在运行的驻留程序将自动终止。
 
-如果引导进程已确定, 其他将被当成驻留进程</translation>
+如果定义了引导进程，其他进程将被视作驻留进程。</translation>
     </message>
     <message>
         <location filename="Forms/OptionsWindow.ui" line="986"/>
@@ -2306,12 +2306,12 @@ If leader processes are defined, all others are treated as lingering processes.<
     <message>
         <location filename="Forms/OptionsWindow.ui" line="1026"/>
         <source>Issue message 1308 when a program fails to start</source>
-        <translation>错误代码1308,程序启动失败</translation>
+        <translation>程序启动失败发出错误代码 1308</translation>
     </message>
     <message>
         <location filename="Forms/OptionsWindow.ui" line="1045"/>
         <source>Allow only selected programs to start in this sandbox. *</source>
-        <translation>仅允许被选择的程序在此沙盒中启动. *</translation>
+        <translation>仅允许被选择的程序在此沙盒中启动 *</translation>
     </message>
     <message>
         <location filename="Forms/OptionsWindow.ui" line="1052"/>
@@ -2326,7 +2326,7 @@ If leader processes are defined, all others are treated as lingering processes.<
     <message>
         <location filename="Forms/OptionsWindow.ui" line="1066"/>
         <source>* Note: Programs installed to this sandbox won&apos;t be able to start at all.</source>
-        <translation>* 注意: 安装在此沙盒里的程序将完全无法启动</translation>
+        <translation>* 注意：安装在此沙盒里的程序将完全无法启动</translation>
     </message>
     <message>
         <location filename="Forms/OptionsWindow.ui" line="1081"/>
@@ -2336,22 +2336,22 @@ If leader processes are defined, all others are treated as lingering processes.<
     <message>
         <location filename="Forms/OptionsWindow.ui" line="1089"/>
         <source>Issue message 1307 when a program is denied internet access</source>
-        <translation>错误代码1307,程序被拒绝网络访问</translation>
+        <translation>错误代码 1307，当程序被拒绝访问网络</translation>
     </message>
     <message>
         <location filename="Forms/OptionsWindow.ui" line="1096"/>
         <source>Block internet access for all programs except those added to the list.</source>
-        <translation>禁止所有程序访问网络，这些添加到清单里的除外</translation>
+        <translation>禁止所有程序访问网络，仅下列清单中的例外</translation>
     </message>
     <message>
         <location filename="Forms/OptionsWindow.ui" line="1115"/>
         <source>Note: Programs installed to this sandbox won&apos;t be able to access the internet at all.</source>
-        <translation>注意: 安装在此沙盒里程序将完全无法访问网络</translation>
+        <translation>注意：安装在此沙盒中的程序将完全无法访问网络。</translation>
     </message>
     <message>
         <location filename="Forms/OptionsWindow.ui" line="1149"/>
         <source>Prompt user whether to allow an exemption from the blockade.</source>
-        <translation>提示用户是否允许例外免于封锁</translation>
+        <translation>询问用户是否允许例外</translation>
     </message>
     <message>
         <location filename="Forms/OptionsWindow.ui" line="1159"/>
@@ -2386,12 +2386,12 @@ If leader processes are defined, all others are treated as lingering processes.<
     <message>
         <location filename="Forms/OptionsWindow.ui" line="1270"/>
         <source>Add COM Object</source>
-        <translation>添加COM对象</translation>
+        <translation>添加 COM 对象</translation>
     </message>
     <message>
         <location filename="Forms/OptionsWindow.ui" line="1289"/>
         <source>Add IPC Path</source>
-        <translation>添加IPC路径</translation>
+        <translation>添加 IPC 路径</translation>
     </message>
     <message>
         <location filename="Forms/OptionsWindow.ui" line="1309"/>
@@ -2409,10 +2409,10 @@ If leader processes are defined, all others are treated as lingering processes.<
 &apos;Direct&apos; File and Key access only applies to program binaries located outside the sandbox.
 Note that all Close...=!&lt;program&gt;,... exclusions have the same limitations.
 For files access you can use &apos;Direct All&apos; instead to make it apply to all programs.</source>
-        <translation>配置进程所访问的资源. 双击进入编辑.
-&apos;管理&apos; 文件和键值仅适用于沙盒外的程序二进制文件.
-注意所有都将关闭...=!&lt;program&gt;,... 例外也有相同限制.
-文件访问可使用 &apos;管理全部&apos; 使其适用于所有程序.</translation>
+        <translation>配置各个进程所能访问的资源。双击开始编辑。
+“直接”文件和键值访问仅适用于沙盒外的程序二进制文件。
+注意所有 关闭...=!&lt;program&gt;,... 例外具有相同的限制。
+文件访问可使用“全部直接”使其适用于所有程序。</translation>
     </message>
     <message>
         <location filename="Forms/OptionsWindow.ui" line="1356"/>
@@ -2437,17 +2437,17 @@ For files access you can use &apos;Direct All&apos; instead to make it apply to 
     <message>
         <location filename="Forms/OptionsWindow.ui" line="1405"/>
         <source>Enable Immediate Recovery prompt to be able to recover files as soon as thay are created.</source>
-        <translation>启用快速恢复提示以便创建文件时能尽快恢复</translation>
+        <translation>启用快速恢复提示以便快速恢复创建的文件。</translation>
     </message>
     <message>
         <location filename="Forms/OptionsWindow.ui" line="1449"/>
         <source>You can exclude folders and file types (or file extensions) from Immediate Recovery.</source>
-        <translation>您可从快速恢复中排除文件夹和文件类型 (或文件扩展名) </translation>
+        <translation>您可从快速恢复中排除文件夹和文件类型 （或文件扩展名)）。</translation>
     </message>
     <message>
         <location filename="Forms/OptionsWindow.ui" line="1459"/>
         <source>When the Quick Recovery function is invoked, the following folders will be checked for sandboxed content. </source>
-        <translation>当快速恢复功能被调用,下列文件夹将被检查沙盒化内容</translation>
+        <translation>当快速恢复功能被调用，检查沙盒内的下列文件夹。</translation>
     </message>
     <message>
         <location filename="Forms/OptionsWindow.ui" line="1472"/>
@@ -2462,12 +2462,12 @@ For files access you can use &apos;Direct All&apos; instead to make it apply to 
     <message>
         <location filename="Forms/OptionsWindow.ui" line="1517"/>
         <source>Do not start sandboxed services using a system token (recommended)</source>
-        <translation>不启动使用系统令牌的沙盒化服务 (建议)</translation>
+        <translation>不使用系统令牌启动沙盒化的服务（推荐）</translation>
     </message>
     <message>
         <location filename="Forms/OptionsWindow.ui" line="1524"/>
         <source>Don&apos;t alter window class names created by sandboxed programs</source>
-        <translation>不要改变由沙盒程序创建的窗口类名</translation>
+        <translation>不要改变由沙盒内程序创建的窗口类名</translation>
     </message>
     <message>
         <location filename="Forms/OptionsWindow.ui" line="1537"/>
@@ -2484,7 +2484,7 @@ For files access you can use &apos;Direct All&apos; instead to make it apply to 
     <message>
         <location filename="Forms/OptionsWindow.ui" line="1547"/>
         <source>Protect sandboxed SYSTEM processes from unprivileged unsandboxed processes</source>
-        <translation>保护沙盒化系统进程来自未授权的未沙盒化的进程</translation>
+        <translation>针对无特权的非沙盒化进程保护沙盒化的 SYSTEM 进程</translation>
     </message>
     <message>
         <location filename="Forms/OptionsWindow.ui" line="1560"/>
@@ -2494,12 +2494,12 @@ For files access you can use &apos;Direct All&apos; instead to make it apply to 
     <message>
         <location filename="Forms/OptionsWindow.ui" line="1567"/>
         <source>Add sandboxed processes to job objects (recommended)</source>
-        <translation>添加沙盒化进程到作业对象(建议)</translation>
+        <translation>添加沙盒化进程到作业对象（推荐）</translation>
     </message>
     <message>
         <location filename="Forms/OptionsWindow.ui" line="1574"/>
         <source>Force usage of custom dummy Manifest files (legacy behaviour)</source>
-        <translation>强制使用自定义虚拟Manifest文件(遗留行为)</translation>
+        <translation>强制使用自定义虚拟 Manifest 文件（传统行为）</translation>
     </message>
     <message>
         <location filename="Forms/OptionsWindow.ui" line="1603"/>
@@ -2509,12 +2509,12 @@ For files access you can use &apos;Direct All&apos; instead to make it apply to 
     <message>
         <location filename="Forms/OptionsWindow.ui" line="1610"/>
         <source>Limit access to the emulated service control manager to privileged processes</source>
-        <translation>限制访问模拟服务控制管理器来提权进程</translation>
+        <translation>限制访问模拟的“服务控制管理器”以防止提权进程</translation>
     </message>
     <message>
         <location filename="Forms/OptionsWindow.ui" line="1617"/>
         <source>Emulate sandboxed window station for all processes</source>
-        <translation>为所有进程模拟沙盒化窗口工作站</translation>
+        <translation>为所有进程模拟沙盒化的窗口状况</translation>
     </message>
     <message>
         <location filename="Forms/OptionsWindow.ui" line="1627"/>
@@ -2529,7 +2529,7 @@ For files access you can use &apos;Direct All&apos; instead to make it apply to 
     <message>
         <location filename="Forms/OptionsWindow.ui" line="1642"/>
         <source>Various advanced isolation features can break compatibility, with some applications, if you are using this sandbox &lt;b&gt;NOT for Security&lt;/b&gt; but for simple application portability by changing these options you can restore compatibility by sacrificing some security.&lt;br&gt;These options can be used securely when you don&apos;t grant any of the sandboxed process admin rights.</source>
-        <translation>多种高级隔离特性通过某些应用程序能破坏兼容性, 如果您正在使用此沙盒 &lt;b&gt;不是为了安全&lt;/b&gt; 但仅是为了便携化普通应用程序，通过更改这些选项您可以牺牲某些安全来重置兼容性.&lt;br&gt;当你不同意任何沙河化进程的管理员权限时，这些选项可以安全地使用.</translation>
+        <translation>多种高级隔离特性可能影响到某些应用程序的兼容性，如果您使用本沙盒&lt;b&gt;不是为了安全&lt;/b&gt;，仅是为了便携化普通应用程序，那么更改这些选项牺牲某些安全性来重获兼容性。&lt;br&gt;如果您不会为沙盒化的进程授予管理员权限，那么可以安全地使用这些选项。</translation>
     </message>
     <message>
         <location filename="Forms/OptionsWindow.ui" line="1652"/>
@@ -2539,12 +2539,12 @@ For files access you can use &apos;Direct All&apos; instead to make it apply to 
     <message>
         <location filename="Forms/OptionsWindow.ui" line="1672"/>
         <source>Open access to windows Security Account Manager</source>
-        <translation>开放windows安全帐户管理器的访问权限</translation>
+        <translation>开放 Windows 安全帐户管理器（SAM）的访问权限</translation>
     </message>
     <message>
         <location filename="Forms/OptionsWindow.ui" line="1692"/>
         <source>Open access to windows Local Security Authority</source>
-        <translation>开放windows本地安全授权的访问权限</translation>
+        <translation>开放 Windows 本地安全认证（LSA）的访问权限</translation>
     </message>
     <message>
         <location filename="Forms/OptionsWindow.ui" line="1708"/>
@@ -2564,7 +2564,7 @@ For files access you can use &apos;Direct All&apos; instead to make it apply to 
     <message>
         <location filename="Forms/OptionsWindow.ui" line="1751"/>
         <source>Here you can specify a list of commands that are executed every time the sandbox is initially populated.</source>
-        <translation>这里您可以详列每次沙盒启动被执行的命令清单</translation>
+        <translation>这里您可以指定一系列每次沙盒启动时被执行的命令。</translation>
     </message>
     <message>
         <location filename="Forms/OptionsWindow.ui" line="1771"/>
@@ -2579,12 +2579,12 @@ For files access you can use &apos;Direct All&apos; instead to make it apply to 
     <message>
         <location filename="Forms/OptionsWindow.ui" line="1800"/>
         <source>Hide host processes from processes running in the sandbox.</source>
-        <translation>隐藏沙盒中运行进程的主进程</translation>
+        <translation>面向沙盒内运行的进程隐藏的宿主进程</translation>
     </message>
     <message>
         <location filename="Forms/OptionsWindow.ui" line="1817"/>
         <source>Don&apos;t allow sandboxed processes to see processes running in other boxes</source>
-        <translation>不允许沙盒化的进程查看其他沙盒里进程的运行</translation>
+        <translation>不允许沙盒化的进程查看其他沙盒里运行的进程</translation>
     </message>
     <message>
         <location filename="Forms/OptionsWindow.ui" line="1831"/>
@@ -2594,7 +2594,7 @@ For files access you can use &apos;Direct All&apos; instead to make it apply to 
     <message>
         <location filename="Forms/OptionsWindow.ui" line="1837"/>
         <source>Restrict Resource Access monitor to administrators only</source>
-        <translation>限制资源访问监视器仅限管理员</translation>
+        <translation>仅允许管理员访问“资源访问监视器”</translation>
     </message>
     <message>
         <location filename="Forms/OptionsWindow.ui" line="1844"/>
@@ -2604,16 +2604,16 @@ For files access you can use &apos;Direct All&apos; instead to make it apply to 
     <message>
         <location filename="Forms/OptionsWindow.ui" line="1867"/>
         <source>Remove User</source>
-        <translation>删除用户</translation>
+        <translation>移除用户</translation>
     </message>
     <message>
         <location filename="Forms/OptionsWindow.ui" line="1874"/>
         <source>Add user accounts and user groups to the list below to limit use of the sandbox to only those accounts.  If the list is empty, the sandbox can be used by all user accounts.
 
 Note:  Forced Programs and Force Folders settings for a sandbox do not apply to user accounts which cannot use the sandbox.</source>
-        <translation>添加用户账户和用户组到下面清单中来仅限这些账户使用沙盒. 如果清单内容为空，所有账户均可使用沙盒.
+        <translation>添加用户账户和用户组到下方列表来仅限这些账户使用沙盒。如果列表内容为空，所有账户均可使用沙盒。
 
-注意: 沙盒的强制运行程序和强制运行文件夹设置不接受不能运行沙盘的账户</translation>
+注意：沙盒的强制运行程序和强制运行文件夹设置不适用不能运行沙盒的账户。</translation>
     </message>
     <message>
         <location filename="Forms/OptionsWindow.ui" line="1887"/>
@@ -2623,12 +2623,12 @@ Note:  Forced Programs and Force Folders settings for a sandbox do not apply to 
     <message>
         <location filename="Forms/OptionsWindow.ui" line="1908"/>
         <source>COM Class Trace</source>
-        <translation>COM类目跟踪</translation>
+        <translation>COM 类跟踪</translation>
     </message>
     <message>
         <location filename="Forms/OptionsWindow.ui" line="1915"/>
         <source>IPC Trace</source>
-        <translation>IPC跟踪</translation>
+        <translation>IPC 跟踪</translation>
     </message>
     <message>
         <location filename="Forms/OptionsWindow.ui" line="1922"/>
@@ -2638,7 +2638,7 @@ Note:  Forced Programs and Force Folders settings for a sandbox do not apply to 
     <message>
         <location filename="Forms/OptionsWindow.ui" line="1942"/>
         <source>GUI Trace</source>
-        <translation>GUI跟踪</translation>
+        <translation>GUI 跟踪</translation>
     </message>
     <message>
         <location filename="Forms/OptionsWindow.ui" line="1949"/>
@@ -2819,7 +2819,7 @@ Please note that this values are currently user specific and saved globally for 
     <message>
         <location filename="Forms/PopUpWindow.ui" line="32"/>
         <source>SandboxiePlus Notifications</source>
-        <translation>SandboxiePlus通知</translation>
+        <translation>SandboxiePlus 通知</translation>
     </message>
 </context>
 <context>
@@ -2865,7 +2865,7 @@ Please note that this values are currently user specific and saved globally for 
     <message>
         <location filename="Forms/RecoveryWindow.ui" line="103"/>
         <source>Delete all</source>
-        <translation>删除全部</translation>
+        <translation>全部删除</translation>
     </message>
     <message>
         <location filename="Forms/RecoveryWindow.ui" line="110"/>
@@ -2883,32 +2883,32 @@ Please note that this values are currently user specific and saved globally for 
     <message>
         <location filename="Forms/SettingsWindow.ui" line="32"/>
         <source>SandboxiePlus Settings</source>
-        <translation>SandboxiePlus设置</translation>
+        <translation>SandboxiePlus 设置</translation>
     </message>
     <message>
         <location filename="Forms/SettingsWindow.ui" line="52"/>
         <source>General Options</source>
-        <translation>通用选项</translation>
+        <translation>常规选项</translation>
     </message>
     <message>
         <location filename="Forms/SettingsWindow.ui" line="73"/>
         <source>Show Notifications for relevant log Messages</source>
-        <translation>显示相关日志信息的通知</translation>
+        <translation>显示有关日志消息的通知</translation>
     </message>
     <message>
         <location filename="Forms/SettingsWindow.ui" line="86"/>
         <source>Show Sys-Tray</source>
-        <translation>系统托盘显示</translation>
+        <translation>显示系统托盘</translation>
     </message>
     <message>
         <location filename="Forms/SettingsWindow.ui" line="93"/>
         <source>Open urls from this ui sandboxed</source>
-        <translation>在此用户界面打开的链接均沙盒化</translation>
+        <translation>在沙盒中打开此用户界面上的链接</translation>
     </message>
     <message>
         <location filename="Forms/SettingsWindow.ui" line="103"/>
         <source>Check periodically for updates of Sandboxie-Plus</source>
-        <translation>定期检查Sandboxie-Plus的更新</translation>
+        <translation>定期检查有无 Sandboxie-Plus 更新</translation>
     </message>
     <message>
         <location filename="Forms/SettingsWindow.ui" line="110"/>
@@ -2918,37 +2918,37 @@ Please note that this values are currently user specific and saved globally for 
     <message>
         <location filename="Forms/SettingsWindow.ui" line="123"/>
         <source>Start UI with Windows</source>
-        <translation>开机启动UI</translation>
+        <translation>系统启动时显示界面</translation>
     </message>
     <message>
         <location filename="Forms/SettingsWindow.ui" line="130"/>
         <source>Add &apos;Run Sandboxed&apos; to the explorer context menu</source>
-        <translation>在资源管理器添加&apos;在沙盒中运行&apos; </translation>
+        <translation>向文件资源管理器添加&apos;Run Sandboxed&apos;（在沙盒中运行）右键菜单</translation>
     </message>
     <message>
         <location filename="Forms/SettingsWindow.ui" line="137"/>
         <source>On main window close:</source>
-        <translation>主窗体关闭时:</translation>
+        <translation>主窗口关闭时：</translation>
     </message>
     <message>
         <location filename="Forms/SettingsWindow.ui" line="166"/>
         <source>Tray options</source>
-        <translation>磁盘选项</translation>
+        <translation>托盘选项</translation>
     </message>
     <message>
         <location filename="Forms/SettingsWindow.ui" line="173"/>
         <source>Start UI when a sandboxed process is started</source>
-        <translation>当沙盒进程启动时启动UI</translation>
+        <translation>进程在沙盒中启动时显示界面</translation>
     </message>
     <message>
         <location filename="Forms/SettingsWindow.ui" line="180"/>
         <source>Show first recovery window when emptying sandboxes</source>
-        <translation>当清空沙盒时显示第一个恢复窗口</translation>
+        <translation>清空沙盒时先显示恢复窗口</translation>
     </message>
     <message>
         <location filename="Forms/SettingsWindow.ui" line="187"/>
         <source>Use Dark Theme (fully applied after a restart)</source>
-        <translation>使用暗色主题(重启后完全应用)</translation>
+        <translation>使用暗色主题（重启程序才能后完全应用）</translation>
     </message>
     <message>
         <location filename="Forms/SettingsWindow.ui" line="200"/>
@@ -2958,17 +2958,17 @@ Please note that this values are currently user specific and saved globally for 
     <message>
         <location filename="Forms/SettingsWindow.ui" line="217"/>
         <source>Config protection</source>
-        <translation>配置保护</translation>
+        <translation type="unfinished">保护配置</translation>
     </message>
     <message>
         <location filename="Forms/SettingsWindow.ui" line="224"/>
         <source>Sandbox &lt;a href=&quot;sbie://docs/ipcrootpath&quot;&gt;ipc root&lt;/a&gt;: </source>
-        <translation>沙盒 &lt;a href=&quot;沙盘://docs/ipcrootpath&quot;&gt;ipc根目录&lt;/a&gt;: </translation>
+        <translation>沙盒 &lt;a href=&quot;沙盘://docs/ipcrootpath&quot;&gt;ipc&#x3000;根目录&lt;/a&gt;：</translation>
     </message>
     <message>
         <location filename="Forms/SettingsWindow.ui" line="253"/>
         <source>Sandbox &lt;a href=&quot;sbie://docs/keyrootpath&quot;&gt;registry root&lt;/a&gt;: </source>
-        <translation>沙盒 &lt;a href=&quot;沙盘://docs/keyrootpath&quot;&gt;注册表根目录&lt;/a&gt;: </translation>
+        <translation>沙盒&lt;a href=&quot;沙盘://docs/keyrootpath&quot;&gt;注册表根目录&lt;/a&gt;：</translation>
     </message>
     <message>
         <location filename="Forms/SettingsWindow.ui" line="269"/>
@@ -2978,17 +2978,17 @@ Please note that this values are currently user specific and saved globally for 
     <message>
         <location filename="Forms/SettingsWindow.ui" line="276"/>
         <source>Only Administrator user accounts can use Disable Forced Programs command</source>
-        <translation>仅管理员账户可使用禁用强制运行程序命令</translation>
+        <translation>仅管理员账户可使用“禁用强制运行程序”命令</translation>
     </message>
     <message>
         <location filename="Forms/SettingsWindow.ui" line="283"/>
         <source>Sandbox &lt;a href=&quot;sbie://docs/filerootpath&quot;&gt;file system root&lt;/a&gt;: </source>
-        <translation>沙盒 &lt;a href=&quot;沙盘://docs/filerootpath&quot;&gt;文件系统根目录&lt;/a&gt;: </translation>
+        <translation>沙盒&lt;a href=&quot;沙盘://docs/filerootpath&quot;&gt;文件系统根目录&lt;/a&gt;：</translation>
     </message>
     <message>
         <location filename="Forms/SettingsWindow.ui" line="296"/>
         <source>Separate user folders</source>
-        <translation>独立用户文件夹</translation>
+        <translation>独立的用户文件夹</translation>
     </message>
     <message>
         <location filename="Forms/SettingsWindow.ui" line="316"/>
@@ -2998,7 +2998,7 @@ Please note that this values are currently user specific and saved globally for 
     <message>
         <location filename="Forms/SettingsWindow.ui" line="323"/>
         <source>Password must be entered in order to make changes</source>
-        <translation>必须输入密码以便进行更改</translation>
+        <translation>更改必须输入密码</translation>
     </message>
     <message>
         <location filename="Forms/SettingsWindow.ui" line="330"/>
@@ -3018,7 +3018,7 @@ Please note that this values are currently user specific and saved globally for 
     <message>
         <location filename="Forms/SettingsWindow.ui" line="389"/>
         <source>Sandbox default</source>
-        <translation>沙盒预置</translation>
+        <translation>沙盒预设</translation>
     </message>
     <message>
         <location filename="Forms/SettingsWindow.ui" line="402"/>
@@ -3028,7 +3028,7 @@ Please note that this values are currently user specific and saved globally for 
     <message>
         <location filename="Forms/SettingsWindow.ui" line="409"/>
         <source>Watch Sandboxie.ini for changes</source>
-        <translation>查看Sandboxie.ini变更</translation>
+        <translation>监控 Sandboxie.ini 变更</translation>
     </message>
     <message>
         <location filename="Forms/SettingsWindow.ui" line="419"/>
@@ -3059,7 +3059,7 @@ Please note that this values are currently user specific and saved globally for 
     <message>
         <location filename="Forms/SettingsWindow.ui" line="468"/>
         <source>When any of the following programs is launched outside any sandbox, Sandboxie will issue message SBIE1301.</source>
-        <translation>当下列程序在任意沙盒之外启动时, Sandboxie将出现错误代码SBIE1301</translation>
+        <translation>下列程序在沙盒之外启动时，Sandboxie 将提出 SBIE1301 警示。</translation>
     </message>
     <message>
         <location filename="Forms/SettingsWindow.ui" line="478"/>
@@ -3069,12 +3069,12 @@ Please note that this values are currently user specific and saved globally for 
     <message>
         <location filename="Forms/SettingsWindow.ui" line="485"/>
         <source>Prevent the listed programs from starting on this system</source>
-        <translation>阻止列表程序在此系统中启动</translation>
+        <translation>阻止下列程序在此系统中启动</translation>
     </message>
     <message>
         <location filename="Forms/SettingsWindow.ui" line="494"/>
         <source>Issue message 1308 when a program fails to start</source>
-        <translation>错误代码1308,程序启动失败</translation>
+        <translation>程序启动失败时派发 1308 号消息</translation>
     </message>
     <message>
         <location filename="Forms/SettingsWindow.ui" line="502"/>
@@ -3084,7 +3084,7 @@ Please note that this values are currently user specific and saved globally for 
     <message>
         <location filename="Forms/SettingsWindow.ui" line="510"/>
         <source>In the future, don&apos;t check software compatibility</source>
-        <translation>以后不再检查软件兼容性</translation>
+        <translation>未来不再检查软件兼容性</translation>
     </message>
     <message>
         <location filename="Forms/SettingsWindow.ui" line="517"/>
@@ -3099,7 +3099,7 @@ Please note that this values are currently user specific and saved globally for 
     <message>
         <location filename="Forms/SettingsWindow.ui" line="553"/>
         <source>Sandboxie has detected the following software applications in your system. Click OK to apply configuration settings, which will improve compatibility with these applications. These configuration settings will have effect in all existing sandboxes and in any new sandboxes.</source>
-        <translation>沙盒在您系统中检测到下列软件程序. 点击 确定 接受配置设置,将增强这些软件程序的兼容性.这些配置设置将影响所有已存在的沙盒和任何新沙盒</translation>
+        <translation>沙盒在您系统中检测到下列软件程序。点击“确定”应用配置，将增强对这些软件程序的兼容性。这些配置将影响已经或尚未存在的所有沙盒。</translation>
     </message>
 </context>
 <context>
@@ -3117,17 +3117,17 @@ Please note that this values are currently user specific and saved globally for 
     <message>
         <location filename="Forms/SnapshotsWindow.ui" line="66"/>
         <source>Name:</source>
-        <translation>名称:</translation>
+        <translation>名称：</translation>
     </message>
     <message>
         <location filename="Forms/SnapshotsWindow.ui" line="73"/>
         <source>Description:</source>
-        <translation>说明:</translation>
+        <translation>说明：</translation>
     </message>
     <message>
         <location filename="Forms/SnapshotsWindow.ui" line="98"/>
         <source>Snapshot Actions</source>
-        <translation>快照行为</translation>
+        <translation>快照操作</translation>
     </message>
     <message>
         <location filename="Forms/SnapshotsWindow.ui" line="104"/>
