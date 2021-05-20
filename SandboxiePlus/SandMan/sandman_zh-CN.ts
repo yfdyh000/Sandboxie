@@ -245,22 +245,22 @@
     <message>
         <location filename="Windows/OptionsWindow.cpp" line="1555"/>
         <source>Direct All</source>
-        <translation type="unfinished">直接访问全部</translation>
+        <translation type="unfinished">全部直接访问</translation>
     </message>
     <message>
         <location filename="Windows/OptionsWindow.cpp" line="1556"/>
         <source>Closed</source>
-        <translation type="unfinished">关闭</translation>
+        <translation type="unfinished">已关闭</translation>
     </message>
     <message>
         <location filename="Windows/OptionsWindow.cpp" line="1557"/>
         <source>Closed RT</source>
-        <translation type="unfinished">关闭RT</translation>
+        <translation type="unfinished">RT 已关闭</translation>
     </message>
     <message>
         <location filename="Windows/OptionsWindow.cpp" line="1558"/>
         <source>Read Only</source>
-        <translation type="unfinished">只读</translation>
+        <translation>只读</translation>
     </message>
     <message>
         <location filename="Windows/OptionsWindow.cpp" line="1559"/>
@@ -406,7 +406,7 @@
     <message>
         <location filename="Windows/PopUpWindow.h" line="55"/>
         <source>Remove this message from the list</source>
-        <translation type="unfinished">移除列表中的此消息</translation>
+        <translation>在列表中移除此消息</translation>
     </message>
     <message>
         <location filename="Windows/PopUpWindow.h" line="58"/>
@@ -424,7 +424,7 @@
     <message>
         <location filename="Windows/PopUpWindow.h" line="356"/>
         <source>Remove this progress indicator from the list</source>
-        <translation type="unfinished">移除列表中的此进程标识符</translation>
+        <translation>移除列表中的该进程标识符</translation>
     </message>
 </context>
 <context>
@@ -864,7 +864,7 @@ Full path: %4</source>
     <message>
         <location filename="SandMan.cpp" line="367"/>
         <source>Cleanup Processes</source>
-        <translation type="unfinished">清理所有操作</translation>
+        <translation>清理所有记录</translation>
     </message>
     <message>
         <location filename="SandMan.cpp" line="369"/>
@@ -1002,7 +1002,7 @@ Full path: %4</source>
     <message>
         <location filename="SandMan.cpp" line="559"/>
         <source>Select box:</source>
-        <translation type="unfinished">选择沙盒：</translation>
+        <translation>选择沙盒：</translation>
     </message>
     <message>
         <location filename="SandMan.cpp" line="584"/>
@@ -1027,7 +1027,7 @@ Full path: %4</source>
     <message>
         <location filename="SandMan.cpp" line="743"/>
         <source>Sbie Directory: %1</source>
-        <translation type="unfinished">沙盘目录：%1</translation>
+        <translation>沙盘目录：%1</translation>
     </message>
     <message>
         <location filename="SandMan.cpp" line="744"/>
@@ -2151,7 +2151,7 @@ Full path: %4</source>
     <message>
         <location filename="Forms/OptionsWindow.ui" line="566"/>
         <source>You can configure custom entries for the sandbox run menu.</source>
-        <translation type="unfinished">您可为沙盒运行菜单配置自定义条目。</translation>
+        <translation>您可为沙盒列表的“运行”菜单配置自定义的命令。</translation>
     </message>
     <message>
         <location filename="Forms/OptionsWindow.ui" line="590"/>
@@ -2410,9 +2410,9 @@ If leader processes are defined, all others are treated as lingering processes.<
 Note that all Close...=!&lt;program&gt;,... exclusions have the same limitations.
 For files access you can use &apos;Direct All&apos; instead to make it apply to all programs.</source>
         <translation>配置各个进程所能访问的资源。双击开始编辑。
-“直接”访问文件和键值仅适用于沙盒外的二进制程序文件。
+“直接访问”文件和键值仅适用于沙盒外的二进制程序文件。
 注意所有 关闭...=!&lt;program&gt;,... 例外具有相同的限制。
-文件访问可使用“全部直接访问”使其适用于所有程序。</translation>
+可使用“全部直接访问”使所有程序都能完成指定的文件访问。</translation>
     </message>
     <message>
         <location filename="Forms/OptionsWindow.ui" line="1356"/>
@@ -3059,7 +3059,7 @@ Please note that this values are currently user specific and saved globally for 
     <message>
         <location filename="Forms/SettingsWindow.ui" line="468"/>
         <source>When any of the following programs is launched outside any sandbox, Sandboxie will issue message SBIE1301.</source>
-        <translation>下列程序在沙盒之外启动时，Sandboxie 将提出 SBIE1301 警示。</translation>
+        <translation>下列程序在沙盒之外启动时，Sandboxie 将发出 SBIE1301 警示。</translation>
     </message>
     <message>
         <location filename="Forms/SettingsWindow.ui" line="478"/>
@@ -3074,7 +3074,7 @@ Please note that this values are currently user specific and saved globally for 
     <message>
         <location filename="Forms/SettingsWindow.ui" line="494"/>
         <source>Issue message 1308 when a program fails to start</source>
-        <translation>程序启动失败时派发 1308 号消息</translation>
+        <translation>程序启动失败时发出问题代码 1308</translation>
     </message>
     <message>
         <location filename="Forms/SettingsWindow.ui" line="502"/>
