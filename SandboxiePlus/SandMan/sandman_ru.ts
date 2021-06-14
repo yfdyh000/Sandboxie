@@ -494,22 +494,22 @@ Full path: %4</source>
 Полный путь: %4</translation>
     </message>
     <message>
-        <source>Do you want to allow %4 (%5) to copy a %1 large file into sandbox: %2?
+        <source>Do you want to allow %4 (%5) to copy a %1 large file into sandbox: %2?<byte value="xd"/>
 File name: %3</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>Do you want to allow %1 (%2) access to the internet?
+        <source>Do you want to allow %1 (%2) access to the internet?<byte value="xd"/>
 Full path: %3</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>%1 is eligible for quick recovery from %2.
+        <source>%1 is eligible for quick recovery from %2.<byte value="xd"/>
 The file was written by: %3</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>Migrating a large file %1 into the sandbox %2, %3 left.
+        <source>Migrating a large file %1 into the sandbox %2, %3 left.<byte value="xd"/>
 Full path: %4</source>
         <translation type="unfinished"></translation>
     </message>
@@ -538,11 +538,15 @@ Full path: %4</source>
     </message>
     <message>
         <source>One or more selected files are located on a network share, and must be recovered to a local drive, please select a folder to recover all selected files to.</source>
-        <translation>Один или несколько выбранных файлов находятся в общей сетевой папке и должны быть восстановлены на локальный диск. Выберите папку для восстановления всех выбранных файлов.</translation>
+        <translation type="vanished">Один или несколько выбранных файлов находятся в общей сетевой папке и должны быть восстановлены на локальный диск. Выберите папку для восстановления всех выбранных файлов.</translation>
     </message>
     <message>
         <source>There are %1 files and %2 folders in the sandbox, occupying %3 bytes of disk space.</source>
-        <translation>В песочнице %1 файлов и %2 папок, которые занимают %3 байт дискового пространства.</translation>
+        <translation type="vanished">В песочнице %1 файлов и %2 папок, которые занимают %3 байт дискового пространства.</translation>
+    </message>
+    <message>
+        <source>There are %1 files and %2 folders in the sandbox, occupying %3 of disk space.</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -1196,8 +1200,8 @@ Full path: %4</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>Sandboxie-Plus was running in portable mode, now it has to clean up the created services. This will prompt for administrative privileges.
-
+        <source>Sandboxie-Plus was running in portable mode, now it has to clean up the created services. This will prompt for administrative privileges.<byte value="xd"/>
+<byte value="xd"/>
 Do you want to do the clean up?</source>
         <translation type="unfinished"></translation>
     </message>
@@ -1268,10 +1272,6 @@ Do you want to do the clean up?</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>Msi Installer</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
         <source>Trusted Installer</source>
         <translation type="unfinished"></translation>
     </message>
@@ -1288,15 +1288,7 @@ Do you want to do the clean up?</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>FireFox</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
         <source>Windows Media Player</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>WinAmp</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -1348,10 +1340,6 @@ Do you want to do the clean up?</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>FireFox Plugin Container</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
         <source>Generic Web Browser</source>
         <translation type="unfinished"></translation>
     </message>
@@ -1361,6 +1349,22 @@ Do you want to do the clean up?</source>
     </message>
     <message>
         <source> (%1)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>MSI Installer</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Firefox</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Winamp</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Firefox Plugin Container</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -1402,7 +1406,7 @@ Do you want to do the clean up?</source>
     </message>
     <message>
         <source>Do you want to %1 the selected process(es)</source>
-        <translation>Вы хотите %1 выбранных процессов</translation>
+        <translation type="vanished">Вы хотите %1 выбранных процессов</translation>
     </message>
     <message>
         <source>Move to Group</source>
@@ -1595,6 +1599,10 @@ Do you want to do the clean up?</source>
         <source>Emulate Admin Rights</source>
         <translation>Эмуляция прав администратора</translation>
     </message>
+    <message>
+        <source>Do you want to %1 the selected process(es)?</source>
+        <translation type="unfinished"></translation>
+    </message>
 </context>
 <context>
     <name>CSettingsWindow</name>
@@ -1733,6 +1741,10 @@ Do you want to do the clean up?</source>
     </message>
     <message>
         <source>%1</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Show only sellectes box</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -2393,10 +2405,6 @@ For files access you can use &apos;Direct All&apos; instead to make it apply to 
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>Open access to windows Security Account Manager</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
         <source>Open access to windows Local Security Authority</source>
         <translation type="unfinished"></translation>
     </message>
@@ -2448,6 +2456,22 @@ Please note that this values are currently user specific and saved globally for 
     </message>
     <message>
         <source>CAUTION: When running under the built in administrator, processes can not drop administrative privileges.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Program/Service</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Open access to Windows Security Account Manager</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Disable Resource Access Monitor</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Resource Access Monitor</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
